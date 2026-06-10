@@ -1,0 +1,89 @@
+{
+  "skills": [
+    {
+      "id": "prompt-engineering",
+      "name": "Prompt Engineering 提示词工程",
+      "difficulty": "入门",
+      "forWho": "所有 AI 用户",
+      "whatCanDo": "学会写好提示词，让 AI 更准确地理解你的需求，大幅提升 AI 输出质量。这是使用任何 AI 工具的基础技能。",
+      "learningPath": [
+        "了解提示词的基本结构（角色、背景、目标、要求）",
+        "练习使用提示词模板",
+        "在实际任务中不断优化提示词",
+        "总结自己的提示词模板库"
+      ],
+      "tools": ["ChatGPT", "Claude", "DeepSeek", "Kimi"],
+      "projects": ["建立自己的提示词模板库", "用 AI 完成一篇高质量的文章", "用提示词让 AI 扮演不同角色完成任务"],
+      "pitfalls": ["不要写太模糊的提示词", "不要期望一次就能得到完美结果", "不同 AI 工具对提示词的响应不同，要针对性调整"],
+      "examplePrompt": "【角色】你是一个资深产品经理\n【背景】我想做一个小程序\n【目标】帮我写一份产品需求文档\n【要求】包含功能列表、用户故事、页面流程"
+    },
+    {
+      "id": "ai-agent-development",
+      "name": "AI Agent 智能体开发",
+      "difficulty": "中级",
+      "forWho": "想让 AI 自主完成复杂任务的学生和开发者",
+      "whatCanDo": "构建能自主规划、执行任务的 AI Agent，让它帮你操作文件、调用工具、完成多步骤工作。2026 年最热门的 AI 方向。",
+      "learningPath": [
+        "了解 AI Agent 的基本概念（感知-决策-执行循环）",
+        "学习使用 Claude Code 或 OpenAI Codex",
+        "掌握 CLAUDE.md 配置和 MCP 协议",
+        "尝试构建自己的自动化 Agent 工作流"
+      ],
+      "tools": ["Claude Code", "OpenAI Codex", "MCP 协议", "LangChain"],
+      "projects": ["做一个自动整理文件的 Agent", "做一个自动回复邮件的 Agent", "用 Agent 搭建个人知识库"],
+      "pitfalls": ["Agent 不是万能的，复杂任务需要人来拆解", "一定要给 Agent 设定边界和权限", "注意 API 调用成本"],
+      "examplePrompt": "帮我做一个 AI Agent，功能是：\n1. 每天自动搜索某个话题的最新资讯\n2. 整理成结构化的摘要\n3. 保存到本地文件\n4. 如果有重要信息发送通知"
+    },
+    {
+      "id": "rag-knowledge-base",
+      "name": "RAG 知识库搭建",
+      "difficulty": "中级",
+      "forWho": "想让 AI 基于自己的数据回答问题的学生和企业",
+      "whatCanDo": "搭建检索增强生成（RAG）系统，让 AI 能读取你的文档、笔记、资料，基于你的私有数据回答问题，而不是只靠训练数据。",
+      "learningPath": [
+        "了解 RAG 的基本原理（检索+生成）",
+        "学习向量数据库的使用（如 ChromaDB、Pinecone）",
+        "练习用 LangChain 或 LlamaIndex 搭建简单 RAG",
+        "优化检索质量和回答准确度"
+      ],
+      "tools": ["LangChain", "LlamaIndex", "ChromaDB", "OpenAI API", "Claude API"],
+      "projects": ["搭建一个基于课程笔记的问答系统", "做一个能读 PDF 的 AI 助手", "构建个人知识库搜索引擎"],
+      "pitfalls": ["文档质量直接影响回答质量，垃圾进垃圾出", "向量数据库需要一定的服务器资源", "注意数据隐私和安全"],
+      "examplePrompt": "帮我搭建一个 RAG 知识库：\n1. 读取我的课程笔记文件\n2. 建立向量索引\n3. 支持自然语言提问\n4. 返回答案并标注来源"
+    },
+    {
+      "id": "ai-image-video",
+      "name": "AI 图片和视频生成",
+      "difficulty": "入门",
+      "forWho": "需要配图、做设计、做短视频的学生和创作者",
+      "whatCanDo": "用 AI 生成高质量图片和短视频，包括插画、海报、产品图、短视频素材等。2026 年 AI 视频生成质量大幅提升。",
+      "learningPath": [
+        "了解主流 AI 图片生成工具（Midjourney、DALL-E、可灵AI）",
+        "学习图片提示词的写法和技巧",
+        "尝试 AI 视频生成工具（可灵AI、即梦AI、Sora）",
+        "学习后期编辑和优化"
+      ],
+      "tools": ["Midjourney", "DALL-E 3", "可灵AI", "即梦AI", "Sora", "通义万相"],
+      "projects": ["为公众号文章生成配图", "用 AI 生成产品宣传视频", "设计一个简单的 Logo"],
+      "pitfalls": ["AI 生成的内容可能有版权问题，商用需谨慎", "图片中可能出现多余的手指、文字乱码等", "视频生成还比较贵，先用图片练手"],
+      "examplePrompt": "生成一张[描述]的图片，风格：[风格]，色调：[色调]，用途：[用途]"
+    },
+    {
+      "id": "ai-workflow",
+      "name": "AI 自动化工作流",
+      "difficulty": "进阶",
+      "forWho": "想用 AI 自动完成重复性工作的用户",
+      "whatCanDo": "把重复性工作交给 AI 自动完成，比如定时整理数据、批量处理文件、自动发邮件等。企业正在大规模采用。",
+      "learningPath": [
+        "了解什么是 AI Agent 和工作流",
+        "学习使用 Claude Code 或 n8n 等工具",
+        "从简单的自动化任务开始",
+        "逐步构建复杂的多步骤工作流"
+      ],
+      "tools": ["Claude Code", "n8n", "Make", "Dify", "Coze"],
+      "projects": ["自动整理 AI 热点新闻", "自动生成周报", "做一个自动回复客服机器人"],
+      "pitfalls": ["自动化任务需要考虑异常处理", "API 调用有成本，注意控制调用次数", "不要过度自动化，有些事人做比 AI 做更好"],
+      "examplePrompt": "请帮我创建一个自动化脚本，功能是：\n1. 每天早上8点运行\n2. 读取[数据源]\n3. 处理[具体操作]\n4. 输出结果到[目标位置]"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "terms": [
+    {
+      "term": "大模型",
+      "english": "Large Model / LLM",
+      "explanation": "能理解和生成文字、图片、代码等内容的 AI 模型。",
+      "analogy": "像一个读过很多资料的助手，能根据你的问题组织答案。",
+      "example": "ChatGPT、Claude、DeepSeek、Kimi 都属于大模型产品。",
+      "pitfall": "大模型不是万能老师，它可能一本正经地说错。"
+    },
+    {
+      "term": "Token",
+      "english": "Token",
+      "explanation": "AI 处理文字时使用的基本单位，可以粗略理解成“字词碎片”。",
+      "analogy": "像把一篇文章切成很多小积木，模型一块一块处理。",
+      "example": "你输入越长、AI 回答越长，消耗的 Token 就越多。",
+      "pitfall": "Token 不完全等于汉字数，不同模型的计算方式会有差异。"
+    },
+    {
+      "term": "上下文窗口",
+      "english": "Context Window",
+      "explanation": "AI 一次对话中能看到和记住的文字范围。",
+      "analogy": "像人的短期记忆，窗口越大，一次能看进来的资料越多。",
+      "example": "长文档分析、代码项目理解都需要较大的上下文窗口。",
+      "pitfall": "窗口大不代表一定理解好，资料太乱也会影响答案。"
+    },
+    {
+      "term": "提示词",
+      "english": "Prompt",
+      "explanation": "你给 AI 的任务说明，包括背景、目标、要求和输出格式。",
+      "analogy": "像给同学布置作业，要求越清楚，结果越接近预期。",
+      "example": "“帮我用小白能懂的话解释 API，并给 3 个例子。”",
+      "pitfall": "只说“帮我写一下”通常会得到很泛的答案。"
+    },
+    {
+      "term": "AI Agent",
+      "english": "AI Agent",
+      "explanation": "能根据目标自主规划步骤、调用工具并完成任务的 AI。",
+      "analogy": "普通 AI 像答疑同学，Agent 更像能帮你跑腿做事的助理。",
+      "example": "Codex 读取项目、修改代码、运行测试，就是 Agent 工作方式。",
+      "pitfall": "Agent 需要边界和检查，不能把重要权限完全交出去。"
+    },
+    {
+      "term": "RAG",
+      "english": "Retrieval-Augmented Generation",
+      "explanation": "先从资料库检索相关内容，再让 AI 基于资料回答问题。",
+      "analogy": "像考试前先翻课本找依据，再组织答案。",
+      "example": "把自己的 PDF、笔记做成知识库问答系统。",
+      "pitfall": "资料质量差，AI 回答也会差。"
+    },
+    {
+      "term": "API",
+      "english": "Application Programming Interface",
+      "explanation": "软件之间互相调用能力和数据的接口。",
+      "analogy": "像餐厅菜单，你按菜单点菜，厨房按约定给你结果。",
+      "example": "网页通过 OpenAI API 调用模型生成回答。",
+      "pitfall": "API Key 要保密，不能直接写进公开网页。"
+    },
+    {
+      "term": "幻觉",
+      "english": "Hallucination",
+      "explanation": "AI 编造不存在或不准确的信息。",
+      "analogy": "像学生不会题但硬凑了一个看起来很像答案的回答。",
+      "example": "AI 可能编造论文标题、新闻来源或不存在的函数。",
+      "pitfall": "越重要的信息越要查来源，不要只看 AI 的语气自信。"
+    },
+    {
+      "term": "MCP",
+      "english": "Model Context Protocol",
+      "explanation": "一种让 AI Agent 连接外部工具和数据源的协议。",
+      "analogy": "像给 AI 装上一组标准插座，方便接数据库、浏览器、文件系统等工具。",
+      "example": "让 Codex 或 Claude Code 通过 MCP 访问 GitHub、数据库或浏览器。",
+      "pitfall": "接入工具越多，越要注意权限和数据安全。"
+    },
+    {
+      "term": "工作流",
+      "english": "Workflow",
+      "explanation": "把一件事拆成固定步骤，让人或 AI 按顺序完成。",
+      "analogy": "像做饭菜谱：先备菜，再下锅，再调味，最后装盘。",
+      "example": "每天搜索新闻、筛选、总结、写入网页，就是一个工作流。",
+      "pitfall": "工作流要考虑失败情况，比如网页打不开、数据为空。"
+    }
+  ]
+}

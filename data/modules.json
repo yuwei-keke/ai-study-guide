@@ -1,0 +1,114 @@
+{
+  "modules": [
+    {
+      "id": "home",
+      "title": "首页",
+      "icon": "🏠",
+      "description": "学习路线图与最新动态",
+      "type": "home"
+    },
+    {
+      "id": "ai-basics",
+      "title": "AI 基础知识",
+      "icon": "🤖",
+      "description": "零基础了解 AI 核心概念",
+      "chapters": [
+        { "id": "01-what-is-ai", "title": "AI 是什么", "file": "content/ai-basics/01-what-is-ai.md" },
+        { "id": "02-what-is-llm", "title": "大模型是什么", "file": "content/ai-basics/02-what-is-llm.md" },
+        { "id": "03-ai-tools-compare", "title": "主流 AI 工具对比", "file": "content/ai-basics/03-ai-tools-compare.md" },
+        { "id": "04-what-is-agent", "title": "什么是 AI Agent", "file": "content/ai-basics/04-what-is-agent.md" },
+        { "id": "05-what-is-vibe-coding", "title": "什么是 Vibe Coding", "file": "content/ai-basics/05-what-is-vibe-coding.md" },
+        { "id": "06-coding-tools-compare", "title": "AI 编程工具对比", "file": "content/ai-basics/06-coding-tools-compare.md" },
+        { "id": "07-ai-for-students", "title": "AI 能帮学生做什么", "file": "content/ai-basics/07-ai-for-students.md" },
+        { "id": "08-ai-efficiency", "title": "AI 提升效率的常见场景", "file": "content/ai-basics/08-ai-efficiency.md" },
+        { "id": "09-ai-mistakes", "title": "使用 AI 时常见误区", "file": "content/ai-basics/09-ai-mistakes.md" },
+        { "id": "10-ai-safety", "title": "AI 使用安全注意事项", "file": "content/ai-basics/10-ai-safety.md" }
+      ]
+    },
+    {
+      "id": "coding-basics",
+      "title": "编程基础知识",
+      "icon": "💻",
+      "description": "AI 编程必须了解的基础知识",
+      "chapters": [
+        { "id": "01-frontend", "title": "前端是什么", "file": "content/coding-basics/01-frontend.md" },
+        { "id": "02-backend", "title": "后端是什么", "file": "content/coding-basics/02-backend.md" },
+        { "id": "03-html", "title": "HTML 是什么", "file": "content/coding-basics/03-html.md" },
+        { "id": "04-css", "title": "CSS 是什么", "file": "content/coding-basics/04-css.md" },
+        { "id": "05-javascript", "title": "JavaScript 是什么", "file": "content/coding-basics/05-javascript.md" },
+        { "id": "06-typescript", "title": "TypeScript 是什么", "file": "content/coding-basics/06-typescript.md" },
+        { "id": "07-react-vue", "title": "React / Vue 是什么", "file": "content/coding-basics/07-react-vue.md" },
+        { "id": "08-nodejs", "title": "Node.js 是什么", "file": "content/coding-basics/08-nodejs.md" },
+        { "id": "09-database", "title": "数据库是什么", "file": "content/coding-basics/09-database.md" },
+        { "id": "10-api", "title": "API 是什么", "file": "content/coding-basics/10-api.md" },
+        { "id": "11-localhost", "title": "本地运行与 localhost", "file": "content/coding-basics/11-localhost.md" },
+        { "id": "12-port", "title": "端口是什么", "file": "content/coding-basics/12-port.md" },
+        { "id": "13-git", "title": "Git 是什么", "file": "content/coding-basics/13-git.md" },
+        { "id": "14-github", "title": "GitHub 是什么", "file": "content/coding-basics/14-github.md" },
+        { "id": "15-npm", "title": "npm / pnpm 是什么", "file": "content/coding-basics/15-npm.md" },
+        { "id": "16-package-json", "title": "package.json 是什么", "file": "content/coding-basics/16-package-json.md" },
+        { "id": "17-readme", "title": "README 是什么", "file": "content/coding-basics/17-readme.md" },
+        { "id": "18-markdown", "title": "Markdown 是什么", "file": "content/coding-basics/18-markdown.md" },
+        { "id": "19-env", "title": "环境变量 .env 是什么", "file": "content/coding-basics/19-env.md" },
+        { "id": "20-api-key", "title": "API Key 是什么", "file": "content/coding-basics/20-api-key.md" },
+        { "id": "21-separation", "title": "前后端分离是什么", "file": "content/coding-basics/21-separation.md" },
+        { "id": "22-deploy", "title": "部署是什么意思", "file": "content/coding-basics/22-deploy.md" },
+        { "id": "23-vercel", "title": "Vercel / Netlify / Cloudflare Pages", "file": "content/coding-basics/23-vercel.md" },
+        { "id": "24-docker", "title": "Docker 是什么", "file": "content/coding-basics/24-docker.md" },
+        { "id": "25-wsl", "title": "WSL 是什么", "file": "content/coding-basics/25-wsl.md" },
+        { "id": "26-terminal", "title": "终端 / 命令行是什么", "file": "content/coding-basics/26-terminal.md" }
+      ]
+    },
+    {
+      "id": "agent-guide",
+      "title": "AI Agent 配置指南",
+      "icon": "⚙️",
+      "description": "Claude Code / Codex 环境配置与使用",
+      "chapters": [
+        { "id": "01-what-is-claude-code", "title": "Claude Code 是什么", "file": "content/agent-guide/01-what-is-claude-code.md" },
+        { "id": "02-what-is-codex", "title": "Codex 是什么", "file": "content/agent-guide/02-what-is-codex.md" },
+        { "id": "03-claude-vs-codex", "title": "Claude Code 和 Codex 的区别", "file": "content/agent-guide/03-claude-vs-codex.md" },
+        { "id": "04-environment-setup", "title": "使用 AI Agent 前的环境准备", "file": "content/agent-guide/04-environment-setup.md" },
+        { "id": "05-tools-overview", "title": "Node.js、Git、VS Code 等工具的作用", "file": "content/agent-guide/05-tools-overview.md" },
+        { "id": "06-project-structure", "title": "如何让 Claude Code 理解项目结构", "file": "content/agent-guide/06-project-structure.md" },
+        { "id": "07-write-readme", "title": "如何写 README.md", "file": "content/agent-guide/07-write-readme.md" },
+        { "id": "08-write-claude-md", "title": "如何写 CLAUDE.md", "file": "content/agent-guide/08-write-claude-md.md" },
+        { "id": "09-claude-md-templates", "title": "CLAUDE.md 模板大全", "file": "content/agent-guide/09-claude-md-templates.md" },
+        { "id": "10-agent-best-practices", "title": "让 AI Agent 遵守规范的技巧", "file": "content/agent-guide/10-agent-best-practices.md" }
+      ]
+    },
+    {
+      "id": "prompt-tutorial",
+      "title": "提示词教程",
+      "icon": "✍️",
+      "description": "如何给 AI Agent 写好提示词",
+      "chapters": [
+        { "id": "01-why-prompt-matters", "title": "为什么提示词很重要", "file": "content/prompt-tutorial/01-why-prompt-matters.md" },
+        { "id": "02-good-prompt-structure", "title": "好提示词的结构", "file": "content/prompt-tutorial/02-good-prompt-structure.md" },
+        { "id": "03-prompt-templates", "title": "提示词模板大全", "file": "content/prompt-tutorial/03-prompt-templates.md" },
+        { "id": "04-prompt-tips", "title": "提示词进阶技巧", "file": "content/prompt-tutorial/04-prompt-tips.md" }
+      ]
+    },
+    {
+      "id": "glossary",
+      "title": "AI 术语速查表",
+      "icon": "🔎",
+      "description": "遇到陌生名词时随时查",
+      "type": "glossary"
+    },
+    {
+      "id": "skills",
+      "title": "热门 AI Skills",
+      "icon": "🎯",
+      "description": "当前值得学习的 AI 技能",
+      "type": "skills"
+    },
+    {
+      "id": "news",
+      "title": "AI 热点新闻",
+      "icon": "📰",
+      "description": "最新 AI 圈热点动态",
+      "type": "news"
+    }
+  ]
+}

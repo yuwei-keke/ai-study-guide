@@ -1,0 +1,80 @@
+{
+  "lastUpdated": "2026-06-10",
+  "items": [
+    {
+      "id": "news-001",
+      "title": "苹果 WWDC26 发布 Siri AI，全面拥抱 AI 时代",
+      "summary": "苹果在 2026 全球开发者大会上推出全新 Siri AI，集成到灵动岛，支持独立 App 运行。iOS 27 首次实现本地写实 AI 生图，部分高级功能需要 12GB 内存。",
+      "whyImportant": "苹果一直是科技风向标，Siri AI 意味着 AI 正式融入每个人的手机日常，不再只是聊天机器人。",
+      "forWho": "所有 iPhone/iPad 用户，关注科技趋势的学生",
+      "howToUse": "等 iOS 27 正式发布后更新系统，就能体验全新的 Siri AI 功能。",
+      "sourceName": "Apple Developer",
+      "sourceUrl": "https://developer.apple.com/videos/play/wwdc2026/121/",
+      "verifiedAt": "2026-06-10",
+      "confidence": "高",
+      "links": ["https://developer.apple.com/videos/play/wwdc2026/121/"],
+      "date": "2026-06-09",
+      "tags": ["苹果", "Siri", "WWDC"]
+    },
+    {
+      "id": "news-002",
+      "title": "OpenAI 秘密提交 IPO 申请，AI 行业迎来上市潮",
+      "summary": "OpenAI 已向美国 SEC 秘密提交 IPO 申请，最快可能于秋季上市。同期 Anthropic 也在筹备上市，AI 行业进入资本化爆发期。",
+      "whyImportant": "AI 公司上市意味着行业从'烧钱研发'进入'商业化运营'阶段，AI 技术会加速普及到日常生活。",
+      "forWho": "关注 AI 行业发展的学生和投资者",
+      "howToUse": "关注 OpenAI 和 Anthropic 的产品更新，上市后可能会有更多免费或低价的 AI 服务。",
+      "sourceName": "AP News",
+      "sourceUrl": "https://apnews.com/article/c7583994426b1b097120786d6a0b8308",
+      "verifiedAt": "2026-06-10",
+      "confidence": "高",
+      "links": ["https://apnews.com/article/c7583994426b1b097120786d6a0b8308"],
+      "date": "2026-06-09",
+      "tags": ["OpenAI", "IPO", "融资"]
+    },
+    {
+      "id": "news-003",
+      "title": "中国 AI 大模型周调用量连续六周超越美国",
+      "summary": "OpenRouter 数据显示，中国模型周调用量达 14.19 万亿 Token，连续六周超越美国。DeepSeek-V4-Flash 蝉联榜首，MiniMax M3 首周即冲入前三。",
+      "whyImportant": "国产 AI 模型正在崛起，意味着中国学生有更多免费、好用的 AI 工具可以选择。",
+      "forWho": "所有中国 AI 用户，特别是预算有限的学生",
+      "howToUse": "可以优先试试 DeepSeek、MiniMax 等国产模型，免费且中文理解能力强。",
+      "sourceName": "新浪科技 / IT之家",
+      "sourceUrl": "https://finance.sina.com.cn/tech/digi/2026-06-08/doc-iniasfpw7260329.shtml",
+      "verifiedAt": "2026-06-10",
+      "confidence": "中",
+      "links": ["https://finance.sina.com.cn/tech/digi/2026-06-08/doc-iniasfpw7260329.shtml"],
+      "date": "2026-06-08",
+      "tags": ["国产AI", "DeepSeek", "开源"]
+    },
+    {
+      "id": "news-004",
+      "title": "京东腾讯联手，围绕 AI Agent 展开合作",
+      "summary": "京东与腾讯联手，将京东的商品供应链与腾讯的入口资源对接，围绕 AI Agent 展开深度合作。",
+      "whyImportant": "大厂开始把 AI Agent 落地到实际业务中，说明 AI Agent 不再是概念，而是真正能帮企业赚钱的工具。",
+      "forWho": "想了解 AI Agent 实际应用的学生",
+      "howToUse": "关注京东和腾讯的 AI 产品更新，体验 AI Agent 在购物、客服等场景的应用。",
+      "sourceName": "新浪财经 / 鞭牛士",
+      "sourceUrl": "https://finance.sina.com.cn/roll/2026-06-07/doc-iniaruya7378681.shtml",
+      "verifiedAt": "2026-06-10",
+      "confidence": "中",
+      "links": ["https://finance.sina.com.cn/roll/2026-06-07/doc-iniaruya7378681.shtml"],
+      "date": "2026-06-07",
+      "tags": ["AI Agent", "京东", "腾讯"]
+    },
+    {
+      "id": "news-005",
+      "title": "月之暗面估值暴涨近 7 倍，再启 20 亿美元融资",
+      "summary": "Kimi 背后的公司月之暗面半年估值暴涨近 7 倍，正在启动新一轮 20 亿美元融资，全球 AI 行业进入 IPO 爆发期。",
+      "whyImportant": "月之暗面是中国 AI 独角兽代表，Kimi 是很多学生常用的 AI 工具，融资成功意味着产品会持续迭代。",
+      "forWho": "使用 Kimi 的学生和关注中国 AI 行业的人",
+      "howToUse": "继续使用 Kimi 产品，关注其新功能更新。",
+      "sourceName": "Pandaily",
+      "sourceUrl": "https://pandaily.com/moonshot-ai-2b-funding-20b-valuation",
+      "verifiedAt": "2026-06-10",
+      "confidence": "中",
+      "links": ["https://pandaily.com/moonshot-ai-2b-funding-20b-valuation"],
+      "date": "2026-06-09",
+      "tags": ["Kimi", "融资", "独角兽"]
+    }
+  ]
+}
