@@ -793,12 +793,44 @@ function updateActiveNav(moduleId, chapterId) {
 function showHomePage() {
   const main = document.getElementById('mainContent');
   document.querySelectorAll('.nav-chapter').forEach(c => c.classList.remove('active'));
+  const chapterCount = state.modules.reduce((sum, mod) => sum + (mod.chapters ? mod.chapters.length : 0), 0);
+  const skillCount = SKILLS_DATA.skills ? SKILLS_DATA.skills.length : 0;
+  const glossaryCount = GLOSSARY_DATA.length;
 
   let html = `
-    <div class="markdown-body">
-      <h1>📘 AI 学习指导书</h1>
-      <p>欢迎来到 AI 学习指导书！这是一个专为零基础学生设计的 AI 学习资料库。选择左侧导航开始学习，或者按照下面的路线图循序渐进。</p>
-      <p class="data-update-time">📅 数据更新于：${NEWS_DATA.lastUpdated || '未知'}</p>
+    <div class="home-hero">
+      <div class="hero-kicker">AI STUDY GUIDE FOR BEGINNERS</div>
+      <h1>AI 学习指导书</h1>
+      <p class="hero-subtitle">给零基础学习者的 AI 入门课程站：先听懂术语，再学会提问，最后用 AI Agent 做真实项目。</p>
+      <div class="hero-actions">
+        <a class="hero-btn primary" href="#ai-basics/01-what-is-ai">🚀 开始探索</a>
+        <a class="hero-btn" href="#learning-map">📚 查看目录</a>
+        <a class="hero-btn" href="#glossary">🔎 术语速查</a>
+      </div>
+      <div class="hero-stats" aria-label="课程统计">
+        <div><strong>${chapterCount}</strong><span>知识点</span></div>
+        <div><strong>${glossaryCount}</strong><span>核心术语</span></div>
+        <div><strong>${skillCount}</strong><span>AI Skills</span></div>
+        <div><strong>${NEWS_DATA.lastUpdated || '未知'}</strong><span>最近更新</span></div>
+      </div>
+    </div>
+
+    <div class="course-intro">
+      <div class="intro-card">
+        <span>01</span>
+        <h2>先建立认知</h2>
+        <p>用小白类比讲清 AI、大模型、Agent、提示词这些高频概念。</p>
+      </div>
+      <div class="intro-card">
+        <span>02</span>
+        <h2>再开始练习</h2>
+        <p>用模板、例子和小项目练习如何把需求讲给 AI 听。</p>
+      </div>
+      <div class="intro-card">
+        <span>03</span>
+        <h2>最后做项目</h2>
+        <p>补齐编程基础和 Agent 配置，让 AI 真正帮你搭东西。</p>
+      </div>
     </div>
   `;
 
@@ -849,7 +881,7 @@ function showHomePage() {
   }
 
   html += `
-    <div class="home-section">
+    <div class="home-section" id="learning-map">
       <h2>🗺️ 学习路线图</h2>
       <div class="learning-path">
   `;

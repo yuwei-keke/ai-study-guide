@@ -5,7 +5,15 @@
 
 const fs = require('fs');
 const path = require('path');
-const { chromium } = require('playwright');
+let chromium;
+
+try {
+  ({ chromium } = require('playwright'));
+} catch (err) {
+  const fallbackRoot = process.env.PLAYWRIGHT_MODULE_DIR
+    || path.join(process.env.TEMP || '', 'ai-study-playwright', 'node_modules', 'playwright');
+  ({ chromium } = require(fallbackRoot));
+}
 
 const baseUrl = process.env.AI_STUDY_URL || 'http://localhost:8080';
 const chromeExe = process.env.CHROME_EXE || 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
@@ -42,7 +50,8 @@ async function main() {
   });
 
   await page.goto(baseUrl, { waitUntil: 'networkidle' });
-  record('home-main-heading-visible', await page.locator('#mainContent .markdown-body h1').count() === 1);
+  record('home-main-heading-visible', await page.locator('#mainContent .home-hero h1').count() === 1);
+  record('home-hero-actions-visible', await page.locator('.hero-actions .hero-btn').count() >= 3);
   record('study-plan-seven-cards', await page.locator('.study-plan .plan-card').count() === 7);
   record('home-learning-cards-visible', await page.locator('.learning-path .path-card').count() >= 7);
   await page.screenshot({ path: path.join(shotDir, 'desktop-home.png'), fullPage: true });

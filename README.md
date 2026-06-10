@@ -1,10 +1,24 @@
+<div align="center">
+
 # 📘 AI 学习指导书
 
-一个专为零基础学生设计的 AI 学习知识库，帮助你系统学习 AI 工具、AI 编程、AI Agent 使用方法。
+给零基础学习者的 AI 入门课程站：先听懂术语，再学会提问，最后用 AI Agent 做真实项目。
+
+[🚀 开始探索](https://yuwei-keke.github.io/ai-study-guide/) ·
+[📚 学习地图](https://yuwei-keke.github.io/ai-study-guide/#learning-map) ·
+[🔎 术语速查](https://yuwei-keke.github.io/ai-study-guide/#glossary) ·
+[🎯 AI Skills](https://yuwei-keke.github.io/ai-study-guide/#skills)
+
+![Static Site](https://img.shields.io/badge/site-GitHub%20Pages-2ea44f)
+![No Framework](https://img.shields.io/badge/framework-none-blue)
+![Language](https://img.shields.io/badge/language-中文-orange)
+![License](https://img.shields.io/badge/license-personal%20learning-lightgrey)
+
+</div>
 
 ## 项目简介
 
-这是一个本地运行的网页知识库，包含以下内容：
+这是一个可以在线阅读、也可以本地运行的 AI 学习知识库，包含以下内容：
 
 - **AI 基础知识**：10 个核心概念的通俗讲解
 - **编程基础知识**：27 个编程概念的零基础入门
