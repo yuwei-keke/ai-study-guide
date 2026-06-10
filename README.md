@@ -58,6 +58,27 @@ node scripts\visual-check.js
 
 检查会覆盖首页、术语表、新闻页、文章页、文章目录点击、移动端布局和控制台错误。
 
+## 发布到 GitHub Pages
+
+这是一个纯静态项目，可以直接用 GitHub Pages 托管。
+
+1. 在 GitHub 创建一个公开仓库，例如 `ai-study-guide`
+2. 本地添加远程仓库并推送：
+
+```bash
+git remote add origin https://github.com/你的用户名/ai-study-guide.git
+git push -u origin main
+```
+
+3. 打开仓库的 `Settings` → `Pages`
+4. `Build and deployment` 选择 `Deploy from a branch`
+5. `Branch` 选择 `main`，目录选择 `/root`
+6. 保存后等待几分钟，访问：
+
+```text
+https://你的用户名.github.io/ai-study-guide/
+```
+
 ## 项目结构
 
 ```
